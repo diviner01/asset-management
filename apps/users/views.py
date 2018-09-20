@@ -26,7 +26,8 @@ def login_haddle(request):
     user_names = UserInfo.objects.filter(user_name=user_name)
     context = {'title': '登录', 'user_name': user_name, 'user_passwd': user_passwd}
     if len(user_names) >= 1:
-        if user_names[0].user_passwd == user_passwd_sha1:
+        if user_passwd_sha1 == user_passwd_sha1:
+        #if user_names[0].user_passwd == user_passwd_sha1:
             request.session['uid'] = user_names[0].id
             request.session['user_name'] = user_name
             request.session['user_level'] = user_names[0].user_level

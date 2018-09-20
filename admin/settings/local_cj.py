@@ -93,11 +93,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'imoocc',
         'USER': 'imoocc',
-        'PASSWORD': 'imoocccom',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'imoocc_123',
+        'HOST': '192.168.40.128',
         'PORT': '',
         'OPTIONS': {},
         'init_command': 'SET storage_engine=INNODB,'
+                        'set foreign_key_checks=0'
                         'SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED, autocommit=1, names "utf8";',
     }
 }
@@ -125,8 +126,8 @@ STATICFILES_DIRS = [
 
 # Email settings smtp/pop3
 EMAIL_HOST = "smtp.163.com"
-EMAIL_HOST_USER = "xxx@email.com"
-EMAIL_HOST_PASSWORD = "password"
+EMAIL_HOST_USER = "gehaoqiang0106@email.com"
+EMAIL_HOST_PASSWORD = "destiny94821*."
 EMAIL_USE_TLS = False
 EMAIL_SUBJECT_PREFIX = u"[邮件]"
 

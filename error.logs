@@ -37,3 +37,2257 @@
 [I 20180416 17:30:58 j_filter:84] Inset data into table ConnectionInfo sucess!
 [W 20180812 02:14:48 base:170] Not Found: /admin/
 [W 20180812 02:14:50 base:170] Not Found: /admin/
+[W 20180812 02:48:47 base:170] Not Found: /users/login/
+[W 20180812 02:48:52 base:170] Not Found: /users
+[W 20180812 02:49:06 base:170] Not Found: /root
+[W 20180816 19:22:47 base:170] Not Found: /favicon.ico
+[W 20180820 06:40:13 base:170] Not Found: /favicon.ico
+[E 20180820 08:00:09 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:10 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:11 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:12 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:27 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:27 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:01:28 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:30:19 base:256] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:30:28 base:256] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:30:52 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:31:02 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 28
+    print context
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:33:04 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 43
+    return response
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:33:05 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 43
+    return response
+    ^
+IndentationError: unexpected indent
+[E 20180820 08:33:12 base:256] Internal Server Error: /
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 43
+    return response
+    ^
+IndentationError: unexpected indent
+[E 20180820 09:24:13 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:24:34 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:24:51 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:25:02 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 30
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:25 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:26 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:27 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:27 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:36 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:37 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[E 20180820 09:26:37 base:256] Internal Server Error: /user/login_haddle/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/admin/urls.py", line 22, in <module>
+    url(r'^user/', include('users.urls', namespace='users')),
+  File "/imoocc/env/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/tools/python27/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/imoocc/assets/apps/users/urls.py", line 3, in <module>
+    from . import views
+  File "/imoocc/assets/apps/users/views.py", line 31
+    request.session['uid'] = user_names[0].id
+          ^
+IndentationError: expected an indented block
+[W 20180920 23:49:26 base:170] Not Found: /favicon.ico
+[I 20180921 03:27:05 j_filter:84] Inset data into table ConnectionInfo sucess!
+[I 20180921 03:27:05 main:198] {Finish:Use time 0 s}
+[I 20180921 03:27:40 j_filter:84] Inset data into table ConnectionInfo sucess!
+[I 20180921 03:27:40 main:198] {Finish:Use time 0 s}
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22
+[I 20180921 05:05:14 nmap_all_server:160] IP:192.168.40.1 Port:22 Server:ssh-2.0-weonlydo 2.4.3
+
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22
+[I 20180921 05:05:14 nmap_all_server:160] IP:192.168.40.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22
+[I 20180921 05:05:14 nmap_all_server:160] IP:192.168.40.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,22,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:05:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:14 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22
+[E 20180921 05:05:18 nmap_all_server:181] Telnet port Exception:192.168.40.254,22,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:05:18 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 222
+[E 20180921 05:05:22 nmap_all_server:181] Telnet port Exception:192.168.40.254,222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:05:22 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:05:26 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:05:26 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22222
+[E 20180921 05:05:30 nmap_all_server:181] Telnet port Exception:192.168.40.254,22222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:05:30 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:05:34 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:05:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22
+[I 20180921 05:05:34 nmap_all_server:160] IP:192.168.40.88 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:05:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 222
+[E 20180921 05:05:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:05:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22222
+[E 20180921 05:05:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:05:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:05:37 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.88', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20180921 05:05:37 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'password')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:05:37 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd2')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:05:37 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20180921 05:05:38 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.128', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:05:39 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.129', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 5f aa 2c 16 be ca-16 10 de e1 e9 99 98 08\n', 'hostname': 'zero01\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:99:98:08\n00:0c:29:99:98:12\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:05:39 nmap_all_server:282] Try ssh key login : 192.168.40.1,22
+[I 20180921 05:05:39 nmap_all_server:285] Try ssh idrsa key : 192.168.40.1,22,/opt/key/first_rsa
+[E 20180921 05:05:39 J_do:78] Use rsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/first_rsa',('192.168.40.1', 22, 'root', '/opt/key/first_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 68, in rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/first_rsa'
+[I 20180921 05:05:39 nmap_all_server:299] try iddsa login...192.168.40.1,22,/opt/key/senncond_rsa
+[E 20180921 05:05:39 J_do:102] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_rsa',('192.168.40.1', '22', 'root', '/opt/key/senncond_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 93, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_rsa'
+[I 20180921 05:05:39 nmap_all_server:315] try Non-root idrsa login:192.168.40.1,22
+[E 20180921 05:05:39 J_do:119] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/third_rsa',('192.168.40.1', '22', 'imoocc', '/opt/key/third_rsa', '0koooAdmin')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 110, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/third_rsa'
+[I 20180921 05:05:39 nmap_all_server:58] Use password login:{'192.168.40.88': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.128': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.129': ('22', 'password', 'root', 'CentOS 6.3', 'zero01\n', '000c29999808_000c29999812_', 'VMware-564d5faa2c16beca-1610dee1e9999808\n', 'VMware, Inc.VMware Virtual Platform')},{'192.168.40.1': '22'}
+[I 20180921 05:05:39 nmap_all_server:60] Use key login:{},{'192.168.40.1': ('22', '/opt/key/third_rsa')}
+[E 20180921 05:05:47 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:05:54 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:06:00 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[I 20180921 05:18:20 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22
+[I 20180921 05:18:21 nmap_all_server:160] IP:192.168.40.1 Port:22 Server:ssh-2.0-weonlydo 2.4.3
+
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.1,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.1,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22
+[I 20180921 05:18:21 nmap_all_server:160] IP:192.168.40.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.128,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.128,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22
+[I 20180921 05:18:21 nmap_all_server:160] IP:192.168.40.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.129,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.129,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.2,22,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.2,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.2,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:18:21 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:21 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22
+[E 20180921 05:18:25 nmap_all_server:181] Telnet port Exception:192.168.40.254,22,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:18:25 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 222
+[E 20180921 05:18:29 nmap_all_server:181] Telnet port Exception:192.168.40.254,222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:18:29 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:18:33 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:18:33 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22222
+[E 20180921 05:18:37 nmap_all_server:181] Telnet port Exception:192.168.40.254,22222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:18:37 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:18:41 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:18:41 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22
+[I 20180921 05:18:41 nmap_all_server:160] IP:192.168.40.88 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:18:41 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 222
+[E 20180921 05:18:41 nmap_all_server:181] Telnet port Exception:192.168.40.88,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:41 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:18:41 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:41 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22222
+[E 20180921 05:18:41 nmap_all_server:181] Telnet port Exception:192.168.40.88,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:41 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:18:41 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:18:41 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.88', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20180921 05:18:42 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'password')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:18:42 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd2')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:18:42 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20180921 05:18:43 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.128', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:18:44 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.129', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 5f aa 2c 16 be ca-16 10 de e1 e9 99 98 08\n', 'hostname': 'zero01\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:99:98:08\n00:0c:29:99:98:12\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:18:44 nmap_all_server:282] Try ssh key login : 192.168.40.1,22
+[I 20180921 05:18:44 nmap_all_server:285] Try ssh idrsa key : 192.168.40.1,22,/opt/key/first_rsa
+[E 20180921 05:18:44 J_do:78] Use rsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/first_rsa',('192.168.40.1', 22, 'root', '/opt/key/first_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 68, in rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/first_rsa'
+[I 20180921 05:18:44 nmap_all_server:299] try iddsa login...192.168.40.1,22,/opt/key/senncond_rsa
+[E 20180921 05:18:44 J_do:102] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_rsa',('192.168.40.1', '22', 'root', '/opt/key/senncond_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 93, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_rsa'
+[I 20180921 05:18:44 nmap_all_server:315] try Non-root idrsa login:192.168.40.1,22
+[E 20180921 05:18:44 J_do:119] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/third_rsa',('192.168.40.1', '22', 'imoocc', '/opt/key/third_rsa', '0koooAdmin')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 110, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/third_rsa'
+[I 20180921 05:18:44 nmap_all_server:58] Use password login:{'192.168.40.88': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.128': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.129': ('22', 'password', 'root', 'CentOS 6.3', 'zero01\n', '000c29999808_000c29999812_', 'VMware-564d5faa2c16beca-1610dee1e9999808\n', 'VMware, Inc.VMware Virtual Platform')},{'192.168.40.1': '22'}
+[I 20180921 05:18:44 nmap_all_server:60] Use key login:{},{'192.168.40.1': ('22', '/opt/key/third_rsa')}
+[E 20180921 05:18:50 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:18:56 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:19:03 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22
+[I 20180921 05:20:14 nmap_all_server:160] IP:192.168.40.1 Port:22 Server:ssh-2.0-weonlydo 2.4.3
+
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22
+[I 20180921 05:20:14 nmap_all_server:160] IP:192.168.40.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22
+[I 20180921 05:20:14 nmap_all_server:160] IP:192.168.40.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,22,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:20:14 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:14 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22
+[E 20180921 05:20:18 nmap_all_server:181] Telnet port Exception:192.168.40.254,22,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:20:18 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 222
+[E 20180921 05:20:22 nmap_all_server:181] Telnet port Exception:192.168.40.254,222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:20:22 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:20:26 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:20:26 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22222
+[E 20180921 05:20:30 nmap_all_server:181] Telnet port Exception:192.168.40.254,22222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:20:30 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:20:34 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:20:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22
+[I 20180921 05:20:34 nmap_all_server:160] IP:192.168.40.88 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:20:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 222
+[E 20180921 05:20:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:20:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22222
+[E 20180921 05:20:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,22222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:34 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:20:34 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:20:35 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.88', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20180921 05:20:36 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'password')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:20:36 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd2')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:20:36 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20180921 05:20:37 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.128', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:20:38 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.129', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 5f aa 2c 16 be ca-16 10 de e1 e9 99 98 08\n', 'hostname': 'zero01\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:99:98:08\n00:0c:29:99:98:12\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:20:38 nmap_all_server:282] Try ssh key login : 192.168.40.1,22
+[I 20180921 05:20:38 nmap_all_server:285] Try ssh idrsa key : 192.168.40.1,22,/opt/key/first_rsa
+[E 20180921 05:20:38 J_do:78] Use rsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/first_rsa',('192.168.40.1', 22, 'root', '/opt/key/first_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 68, in rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/first_rsa'
+[I 20180921 05:20:38 nmap_all_server:299] try iddsa login...192.168.40.1,22,/opt/key/senncond_rsa
+[E 20180921 05:20:38 J_do:102] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_rsa',('192.168.40.1', '22', 'root', '/opt/key/senncond_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 93, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_rsa'
+[I 20180921 05:20:38 nmap_all_server:315] try Non-root idrsa login:192.168.40.1,22
+[E 20180921 05:20:38 J_do:119] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/third_rsa',('192.168.40.1', '22', 'imoocc', '/opt/key/third_rsa', '0koooAdmin')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 110, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/third_rsa'
+[I 20180921 05:20:38 nmap_all_server:58] Use password login:{'192.168.40.88': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.128': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.129': ('22', 'password', 'root', 'CentOS 6.3', 'zero01\n', '000c29999808_000c29999812_', 'VMware-564d5faa2c16beca-1610dee1e9999808\n', 'VMware, Inc.VMware Virtual Platform')},{'192.168.40.1': '22'}
+[I 20180921 05:20:38 nmap_all_server:60] Use key login:{},{'192.168.40.1': ('22', '/opt/key/third_rsa')}
+[E 20180921 05:20:44 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:20:50 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:20:56 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 22
+[I 20180921 05:24:01 nmap_all_server:160] IP:192.168.40.1 Port:22 Server:ssh-2.0-weonlydo 2.4.3
+
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.1,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.1 ..... Port 2222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.1,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 22
+[I 20180921 05:24:01 nmap_all_server:160] IP:192.168.40.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.128,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.128 ..... Port 2222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.128,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 22
+[I 20180921 05:24:01 nmap_all_server:160] IP:192.168.40.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.129,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.129 ..... Port 2222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.129,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 22
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.2,22,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.2,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.2 ..... Port 2222
+[E 20180921 05:24:01 nmap_all_server:181] Telnet port Exception:192.168.40.2,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:01 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 22
+[E 20180921 05:24:05 nmap_all_server:181] Telnet port Exception:192.168.40.254,22,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:24:05 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 222
+[E 20180921 05:24:09 nmap_all_server:181] Telnet port Exception:192.168.40.254,222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:24:09 nmap_all_server:151] Scan ip 192.168.40.254 ..... Port 2222
+[E 20180921 05:24:13 nmap_all_server:181] Telnet port Exception:192.168.40.254,2222,timed out
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+timeout: timed out
+[I 20180921 05:24:13 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 22
+[I 20180921 05:24:13 nmap_all_server:160] IP:192.168.40.88 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20180921 05:24:13 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 222
+[E 20180921 05:24:13 nmap_all_server:181] Telnet port Exception:192.168.40.88,222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:13 nmap_all_server:151] Scan ip 192.168.40.88 ..... Port 2222
+[E 20180921 05:24:13 nmap_all_server:181] Telnet port Exception:192.168.40.88,2222,[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 152, in nmap_sship
+    tm = telnetlib.Telnet(host=ip,port=port,timeout=4)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 211, in __init__
+    self.open(host, port, timeout)
+  File "/tools/python27/lib/python2.7/telnetlib.py", line 227, in open
+    self.sock = socket.create_connection((host, port), timeout)
+  File "/tools/python27/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[I 20180921 05:24:14 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.88', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20180921 05:24:14 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'password')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:24:14 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd2')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20180921 05:24:14 J_do:53] Use passwd ssh login exception:Authentication failed.,('192.168.40.1', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 45, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20180921 05:24:15 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.128', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 05 9a f6 46 2c 43-9a 8f 88 11 de 66 3e 8b\n', 'hostname': 'zero02\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:66:3e:8b\n00:0c:29:66:3e:95\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:24:16 nmap_all_server:215] ssh login and exec command:{'info': ('192.168.40.129', 22, 'root', 'password'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.3 (Final)\nKernel \\r on an \\m\n\n', 'dmidecode -s system-serial-number': 'VMware-56 4d 5f aa 2c 16 be ca-16 10 de e1 e9 99 98 08\n', 'hostname': 'zero01\n', "cat /sys/class/net/[^vtlsb]*/address||esxcfg-vmknic -l|awk '{print $8}'|grep ':'": '00:0c:29:99:98:08\n00:0c:29:99:98:12\n', 'cat /etc/redhat-release': 'CentOS release 6.3 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20180921 05:24:16 nmap_all_server:282] Try ssh key login : 192.168.40.1,22
+[I 20180921 05:24:16 nmap_all_server:285] Try ssh idrsa key : 192.168.40.1,22,/opt/key/first_rsa
+[E 20180921 05:24:16 J_do:78] Use rsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/first_rsa',('192.168.40.1', 22, 'root', '/opt/key/first_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 68, in rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/first_rsa'
+[I 20180921 05:24:16 nmap_all_server:299] try iddsa login...192.168.40.1,22,/opt/key/senncond_rsa
+[E 20180921 05:24:16 J_do:102] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_rsa',('192.168.40.1', '22', 'root', '/opt/key/senncond_rsa')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 93, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_rsa'
+[I 20180921 05:24:16 nmap_all_server:315] try Non-root idrsa login:192.168.40.1,22
+[E 20180921 05:24:16 J_do:119] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/third_rsa',('192.168.40.1', '22', 'imoocc', '/opt/key/third_rsa', '0koooAdmin')
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/lib/J_do.py", line 110, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/tools/python27/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/third_rsa'
+[I 20180921 05:24:16 nmap_all_server:58] Use password login:{'192.168.40.88': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.128': ('22', 'password', 'root', 'CentOS 6.3', 'zero02\n', '000c29663e8b_000c29663e95_', 'VMware-564d059af6462c43-9a8f8811de663e8b\n', 'VMware, Inc.VMware Virtual Platform'), '192.168.40.129': ('22', 'password', 'root', 'CentOS 6.3', 'zero01\n', '000c29999808_000c29999812_', 'VMware-564d5faa2c16beca-1610dee1e9999808\n', 'VMware, Inc.VMware Virtual Platform')},{'192.168.40.1': '22'}
+[I 20180921 05:24:16 nmap_all_server:60] Use key login:{},{'192.168.40.1': ('22', '/opt/key/third_rsa')}
+[E 20180921 05:24:22 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:24:29 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:24:35 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:24:41 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:24:47 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:24:53 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:25:00 nmap_all_server:373] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 367, in sysname_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:25:06 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:25:12 nmap_all_server:355] try nmap net device exception:list index out of range
+Traceback (most recent call last):
+  File "/imoocc/assets/scanhosts/util/nmap_all_server.py", line 349, in sn_query
+    result = str(varBinds[0][1]) if varBinds[0][1] else ""
+IndexError: list index out of range
+[E 20180921 05:25:33 J_do:198] Net Device ip 192.168.1.3 backup not ok, error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fecf25ef910>
+command: /usr/bin/telnet
+args: ['/usr/bin/telnet', '192.168.1.3']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Trying 192.168.1.3...\r\r\ntelnet: connect to address 192.168.1.3: Connection refused\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 52343
+child_fd: 19
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("Username:")
+    1: re.compile("Password:")
+[E 20180921 05:25:54 J_do:198] Net Device ip 192.168.1.2 backup not ok, error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fecf25ef910>
+command: /usr/bin/telnet
+args: ['/usr/bin/telnet', '192.168.1.2']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Trying 192.168.1.2...\r\r\ntelnet: connect to address 192.168.1.2: Connection refused\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 52457
+child_fd: 19
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("Username:")
+    1: re.compile("Password:")
+[E 20180921 05:26:16 J_do:198] Net Device ip 192.168.1.1 backup not ok, error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fecf25ef910>
+command: /usr/bin/telnet
+args: ['/usr/bin/telnet', '192.168.1.1']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Trying 192.168.1.1...\r\r\ntelnet: connect to address 192.168.1.1: Connection refused\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 52550
+child_fd: 19
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("Username:")
+    1: re.compile("Password:")
+[E 20180921 05:26:16 j_filter:70] error:no sn and no mac,id is :16
+[E 20180921 05:26:16 j_filter:70] error:no sn and no mac,id is :17
+[E 20180921 05:26:16 j_filter:70] error:no sn and no mac,id is :18
+[I 20180921 05:26:16 j_filter:84] Inset data into table ConnectionInfo sucess!
+[I 20180921 05:26:16 main:199] {Finish:Use time 136 s}
+[E 20180921 05:29:34 base:256] Internal Server Error: /detail_p/
+Traceback (most recent call last):
+  File "/imoocc/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/imoocc/assets/apps/users/utils/verify.py", line 9, in wrapped
+    return func(request, *args, **kwargs)
+  File "/imoocc/assets/apps/users/utils/verify.py", line 20, in wrapped
+    return func(request, *args, **kwargs)
+  File "/imoocc/assets/apps/detail/views.py", line 74, in detail
+    phy_servers = machine_obj.filter_machines(PhysicalServerInfo, pk=did)[0]
+  File "/imoocc/env/lib/python2.7/site-packages/django/db/models/query.py", line 201, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range

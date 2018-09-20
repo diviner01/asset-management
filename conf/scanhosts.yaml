@@ -3,9 +3,9 @@
 #####
 hostsinfo :
 # 主机段，EXP:['192.168.6'] or ['192.168.1',192.168.2]
-            nets : ['192.168.1']
+            nets : ['192.168.40']
 # 端口段
-            ports : "22,222,2222,22222,2222"
+            ports : "22,222,2222"
 # SSH key文件列表
             ssh_key_file : ['/opt/key/first_rsa','/opt/key/senncond_rsa','/opt/key/third_rsa']
 # 执行命令获取系统相关信息
@@ -20,16 +20,16 @@ hostsinfo :
 #####
 # SSH登录密码列表
 #####
-            ssh_pass : ['123456','passwd2','passwd3']
+            ssh_pass : ['password','passwd2','passwd3']
 # 黑名单查询
             black_list : []
 # Email收件人列表
-            email_list : ["jeson@imoocc.com"]
+            email_list : ["gehaoqiang-it@bestpay.com.cn"]
 
 #Docker容器相关配置信息
 dockerinfo :
 # SSH登录机器的密码列表
-             ssh_pass : ['123456','dockerpass2','dockerpass3']
+             ssh_pass : ['password','dockerpass2','dockerpass3']
 
 #####
 # 网络设备信息列表
@@ -42,7 +42,7 @@ netinfo :
 # 团队名(用于SNMP认证)
            community : "public"
 # 收集配置
-           tfp_server : '192.168.1.1'
+           tfp_server : '192.168.40.1'
 # 开启登录验证
            login_enable : 'True'
 # 开启备份验证

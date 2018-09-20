@@ -95,10 +95,11 @@ DATABASES = {
         'NAME': 'imoocc',
         'USER': 'imoocc',
         'PASSWORD': 'imoocc_123',
-        'HOST': '127.0.0.1',
+        'HOST': '192.168.40.128',
         'PORT': '',
         'OPTIONS': {},
         'init_command': 'SET storage_engine=INNODB,'
+                        'set foreign_key_checks=0'
                         'SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED, autocommit=1, names "utf8";',
     }
 }
