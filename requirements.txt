@@ -84,7 +84,7 @@ ushlex==0.99
 uWSGI==2.0.14
 virtualenv==15.0.2
 wcwidth==0.1.7
-Werkzeug==0.12
+Werkzeug==0.15.3
 Whoosh==2.7.4
 xadmin==0.6.1
 xlrd==1.1.0
